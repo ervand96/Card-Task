@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header Section  -->
+    <header>
+        <div id="header">
+            <button name="nameButton" class="button" onclick="addBlockElement()">
+                Add Card
+            </button>
+            <button name="btnSort" class="button" onclick="sortBlockElements()">
+                Sort Card
+            </button>
+
+            <button onclick="removeBlockElement()" class="button">
+                Remove
+            </button>
+        </div>
+    </header>
+
+    <!-- Header Section End -->
+
+    <!-- Main Section -->
+    <main id="main">
+        <div class="constructor-box">
+            <div id="square_glob"></div>
+        </div>
+
+        <div class="rightDiv">
+            <div class="instruction">
+                <span>1) Add cards adds new cards with different colors.</span>
+                <br><br>
+                <span>2) Sort Cards will sort all of the cards from lowest to highest numbers.</span>
+                <br><br>
+                <span>3) The delete button deletes the last square</span>
+                <br><br>
+                <span>4) Inside the quadra there is "X" it removes the element you clicked on</span>
+                <br><br>
+                <span>5) After removing the square with numbers, they are removed from the object</span>
+                <br><br>
+            </div>
+        </div>
+    </main>
+    <!-- Main Section End -->
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footerSec">
+                <span>Footer Section</span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+#header {
+    margin: 0;
+    top: 0;
+    position: fixed;
+    background-color: #c2fbd7;
+    width: 100%;
+    display: flex;
+    z-index: 9999;
+}
+
+
+.button {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px;
+}
+
+
+.child {
+    width: 45%;
+    height: 330px;
+    margin: 10px; 
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+}            
+.closeSpan {
+    display: flex;
+    width: fit-content;
+    font-size: 40px;
+    cursor: pointer;
+    color: #c2fbd7;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.randomNumber {
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    margin: auto;
+    width: 20%;
+    position: relative;
+    font-size: 70px;
+    color: #c2fbd7;
+}
+
+#main {
+    padding-top: 58px;
+    margin-bottom: 100px;
+    width: 83%;
+    
+
+} 
+.constructor-box {
+    overflow-y: scroll;
+    height: 83vh;
+    z-index: 999999999999999999;
+}
+
+::-webkit-scrollbar {
+    box-shadow: inset 0 0 5px rgb(15, 15, 15); 
+    border-radius: 10px;
+    background-color: #c2fbd7;
+}
+::-webkit-scrollbar:hover {
+    box-shadow: inset 0 0 5px rgb(151, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+    background-color: green;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 5px rgb(151, 0, 0);
+    
+}
+
+.rightDiv {
+    width: 320px;
+    height: 100vh;
+    background: #c2fbd7;
+    position: fixed;   
+    right: 0;
+    top: 0;
+    z-index: 11111111111;
+}
+
+.instruction {
+    margin: 10px;
+}
+
+.instruction > span {
+    font-size: 25px;
+    color: green;
+}
+
+#square_glob {
+    margin-left: 90px;
+}
+.container {
+    background-color: #c2fbd7;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 10%;
+}
+
+.footerSec {
+    text-align: center;
+    color: green;
+    margin-top: 25px;
+    
+}
+
+.footerSec > span {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.button:hover  {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
